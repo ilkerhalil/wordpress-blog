@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../consts';
+
+const books = (await getCollection('books')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+const poems = (await getCollection('poems')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const recentBooks = books.slice(0, 5);
+const recentPoems = poems.slice(0, 5);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="container">
+      <h1>{SITE.author}</h1>
+      <p class="lead">
+        Kitap incelemeleri ve şiirler. Okuduklarım üzerine notlar, yazdıklarım üzerine
+        satırlar — {SITE.tagline}.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Son Kitap İncelemeleri</h2>
+      <div class="card-list">
+        {recentBooks.map((b) => (
+          <a class="card" href={`/kitaplar/${b.id}/`}>
+            <h3>{b.data.title}</h3>
+            <div class="meta">{fmt(b.data.date)}</div>
+            <p class="excerpt">{b.data.description}</p>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top:1rem"><a href="/kitaplar/" style="color:var(--accent)">Tüm incelemeler →</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Son Şiirler</h2>
+      <div class="card-list">
+        {recentPoems.map((p) => (
+          <a class="card" href={`/siirler/${p.id}/`}>
+            <h3>{p.data.title}</h3>
+            <div class="meta">{fmt(p.data.date)}</div>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top:1rem"><a href="/siirler/" style="color:var(--accent)">Tüm şiirler →</a></p>
+    </div>
+  </section>
+</BaseLayout>

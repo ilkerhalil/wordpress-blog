@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const books = (await getCollection('books')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Kitap İncelemeleri"
+  description="İlker Halil Türer'in kitap incelemeleri — tarih, edebiyat ve düşünce üzerine 41 inceleme."
+>
+  <section class="section">
+    <div class="container">
+      <h1 class="page-title">Kitap İncelemeleri</h1>
+      <p class="page-sub">{books.length} inceleme</p>
+      <div class="card-list">
+        {books.map((b) => (
+          <a class="card" href={`/kitaplar/${b.id}/`}>
+            <h3>{b.data.title}</h3>
+            <div class="meta">{fmt(b.data.date)}</div>
+            <p class="excerpt">{b.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-title {
+    font-family: var(--display);
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+  }
+  .page-sub { color: var(--ink-soft); margin-bottom: 1.5rem; }
+</style>

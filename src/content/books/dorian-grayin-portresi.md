@@ -1,0 +1,12 @@
+---
+title: "Oscar Wilde – Dorian Gray’in Portresi"
+date: 2015-08-15
+description: "Oscar Wilde – Dorian Gray’in Portresi — İlker Halil Türer'in kitap incelemesi."
+tags: ["kitap", "inceleme"]
+---
+
+19 yy’in en çok etkileyen yazarlarından Oscar Wilde‘in en bilinen romanı dersem sanıyorum yanılmış olmam.  Dorian Gray’in Portresi;yakışıklı ve soylu Dorian Gray çirkin işler ve günahlarla,ruhunu bataklığa sürüklerken, arkadaşı Basil Hallward tarafından yapılan portresinin günden güne çirkinleştiğini farketmesine rağmen kişisel felaketine tam sürat devam etmesini yazarın gözünden anlatıyor.
+
+19 yy İngiltere’si hakkında da önemli ipuçları veren roman önemli klasiklerden biri…
+
+“…Evet, böyle tan saatlerinde perdelerin arasından usul usul bembeyaz parmaklar içeri süzülür. Titrek gibidir bu parmaklar. Ve sanki perdeleri dalgalandırırlar. Usdışı biçimlere bürünmüş, dilsiz, kara gölgeler sürünerek odanın köşelerine çöker. Dışarıda, yapraklar arasında kuşların kıpırtısı vardır, işe giden insanların sesi duyulur. Rüzgâr tepelerden aşağı iner, sessiz evin içinde uyuyanları uyandırmaktan çekinmekle birlikte uykuyu o mor mağarasından dışarı çıkartmak zorundaymış gibi dolaşıp durarak hıçkırır, iç geçirir. Koyu renkli, ince tüller art arda sıyrılırmış gibi adım adım açılır, nesneler her zamanki renkleriyle biçimlerini kazanır ve biz, şafağın dünyayı o eskil örneğe göre yeniden yaratmasını seyrederiz. Soluk benizli aynalara taklit yaşamları geri döner. Yalazsız şamdanlar bıraktığımız yerde durmaktadır, yanı başlarında da geceleyin okuduğumuz yarıya açılmış kitap, baloda yakamıza taktığımız ucu telli çiçek ya da okumaktan korktuğumuz –belki de yüz kere okuduğumuz– mektup. Gözümüze hiçbir şey değişmiş gibi gözükmez. Gecenin gerçekdışı gölgeleri arasından bildiğimiz gerçek yaşam sıyrılıp gelir. Onu, bıraktığımız yerden ele almamız gerekir. O zaman gene aynı kalıplaşmış alışkanlıkların bıktırıcı çarkını döndürmek için enerji harcamayı sürdürmek zorunluluğu üzerimize bulut gibi çöker. Gözlerimizi, gece karanlığında salt bizim keyfimiz için yeniden biçimlendirilmiş bir dünyaya açabilmek için çılgın bir arzuya kapılırız belki de: her şeyin yepyeni renk ve şekiller taşıdığı, değişmiş olduğu, başka gizemler içerdiği bir dünya; maziye içinde hemen hemen hiç yer vermeyen, geçmişin bilinçli bir sorumluluk ve pişmanlık tortusu bırakmadığı, sevinçli anıların hüsran, tatlı anıların burukluk vermediği bir dünya.”

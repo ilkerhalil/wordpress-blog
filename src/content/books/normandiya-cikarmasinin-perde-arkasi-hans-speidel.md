@@ -1,0 +1,12 @@
+---
+title: "Normandiya Çıkarmasının Perde Arkası – Hans Speidel"
+date: 2018-08-31
+description: "Normandiya Çıkarmasının Perde Arkası – Hans Speidel — İlker Halil Türer'in kitap incelemesi."
+tags: ["kitap", "inceleme"]
+---
+
+1897 yılında doğan II. Dünya Savaşı’nda Nazi ordusuna hizmet veren önemli askerlerden olan Hans Speidel 20 Temmuz Suikast Girişimi’ne adı karıştığı için takibata uğramış gestapo tarafından hapsedilmiş müttefiklerin bulunduğu  hapishane’ye saldırmadan önce hapishaden kaçmayı başarmışdı.  Erwin Rommel’in yakın çevresinde bulunan bir kişi olması II. Dünya Savaşı’ndaki tanıklığını daha önemli hale getirmekle birlikte savaştan sonra Nato’da Orta Avrupa Müttefik Kara Kuvvetleri Baş Komutanı olarak  görev yaptı.
+
+Hans Speidel Normandiya Çıkarmasına Almanların gözünden bakmakla kalmıyor Hitler ve komuta ekibinin ipe sapa gelmez kararlarıyla Cepheyi hatta topyekün Almanları çok zor bir  durumda bıraktığını da gözler önüne seriyor.
+
+“…1 Nisan 1944’te Batı’ya hareketinden önce, Rommel’in yeni Kurmay Başkanı olarak, Obersalzberg’den komuta makamı için stratejik direktifler istedim. Fakat Hitler’le Alman Orduları Başkomutanlığı, “gereksiz” diye bunu reddettiler. Onlara göre Batı Başkomutanı ile “B” Ordular Grubu, kıyılarda sert bir savunma görevini yerine getirmek için emir almışlardı. Stratejik inisiyatiflere girişmek, hiçbir suretle söz konusu olamazdı. Herhangi bir yere çıkarma yapılırsa, bir “kıyı çarpışması ” sonunda düşmanı denize püskürtmekten başka çare yoktu. İtalya’daki Salerno ve Nettunu tecrübelerinden hiç söz edilmedi. Oysa İtalya’nın batı kıyısındaki bu iki noktada, üstün İngiliz birlikleri, hava ve deniz kuvvetlerinin koruması altında karaya çıkmayı pekâlâ da başarmışlardı. Alman yedek zırhlı Kıta’ları, çok uzakta oluşlarından ve düşmanın hava üstünlüğünden ötürü müdahaleye imkân bulamamışlardı. İddiaya göre, bir istilâ tehlikesi hâlinde ve zamanı gelince, 8-10 tümenlik başka güçlü zırhlı birlikleri, ayrıca yeni tepkili uçaklarla deniz birlikleri, özellikle denizaltılar da gönderilmesi öngörülmüştü. Ayrıca yeni “V” silâhı da savaşa sokularak kesin sonuç alınacaktı. Hitler’in, kıyıların her ne bahasına olursa olsun böyle sonuna kadar Fakat Büyük Friedrich’in dediği gibi: “Her ş eyi savunmak isteyen, hiçbir şeyi savunamaz.” Çünkü “savunma hatları eldeki birliklerden çok daha fazla yer kaplar… Dar görüşlü insanlar her şeyi savunmak isterler, akıllı insanlarsa gözlerini ancak başlıca hedefe dikerler.”

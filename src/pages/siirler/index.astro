@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const poems = (await getCollection('poems')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Şiirler"
+  description="İlker Halil Türer'in şiirleri — 29 şiir."
+>
+  <section class="section">
+    <div class="container">
+      <h1 class="page-title">Şiirler</h1>
+      <p class="page-sub">{poems.length} şiir</p>
+      <div class="card-list">
+        {poems.map((p) => (
+          <a class="card" href={`/siirler/${p.id}/`}>
+            <h3>{p.data.title}</h3>
+            <div class="meta">{fmt(p.data.date)}</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-title {
+    font-family: var(--display);
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+  }
+  .page-sub { color: var(--ink-soft); margin-bottom: 1.5rem; }
+</style>

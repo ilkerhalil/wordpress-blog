@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Hakkımda"
+  description="İlker Halil Türer hakkında — yazılım mühendisi, kitap okuru ve şair."
+>
+  <section class="section">
+    <div class="container">
+      <h1 class="page-title">Hakkımda</h1>
+      <div class="article-body">
+        <p>
+          Ben İlker Halil Türer. Yazılım mühendisiyim; okumayı ve yazmayı seviyorum.
+          Bu blogda okuduğum kitaplar üzerine incelemelerimi ve yazdığım şiirleri
+          paylaşıyorum.
+        </p>
+        <p>
+          Kitap incelemelerim ağırlıklı olarak tarih, edebiyat ve düşünce alanlarında.
+          Şiirlerim ise günlük hayatın, duyguların ve varoluşun izlerini taşıyor.
+        </p>
+        <p>
+          <a href="/kitaplar/">Kitap incelemeleri</a> · <a href="/siirler/">Şiirler</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-title {
+    font-family: var(--display);
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+  }
+</style>

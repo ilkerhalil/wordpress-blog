@@ -1,0 +1,10 @@
+---
+title: "Varoluşun Umutsuzluk sorununa kuzeyden bir bakış. Ölümcül Hastalık Umutsuzluk -Søren Kierkegaard"
+date: 2016-12-08
+description: "Varoluşun Umutsuzluk sorununa kuzeyden bir bakış. Ölümcül Hastalık Umutsuzluk -Søren Kierkegaard — İlker Halil Türer'in kitap incelemesi."
+tags: ["kitap", "inceleme"]
+---
+
+Varoloşcu felsefenin önemli öncülerinden Danimarkalı filozof Søren Kierkegaard (5 Mayıs 1813 – 11 Kasım 1855) yine bir çok aynı dönem filozofu gibi dini bir eğitim almış. Bu yüzden eserlerinde belirgin bir şekilde Hristiyanlık üzerine referanslar görmek mümkün. Avrupa’da orta sınıfların yükselişi ile birlikte yaygınlaşan “korku ve kaygı” gibi sorunlara temelinde Hristiyanlıktan uzaklaşma olduğundan hareketle yeni bir bakış açısı getirdi
+
+“…Yalnızlık gereksinimi her zaman içimizde tinsel bir yan olduğunu kanıtlar ve bu tinselliği ölçmemizi sağlar. “Kuş beyinli insanlar sürüsü, birbirinden ayrılamayanların kalabalığı” bu gereksinimi o kadar az hisseder ki muhabbet kuşları gibi yalnız kaldıkları an ölürler! Kendilerine şarkı mırıldanmadıkça uyumayan küçük çocuklara benzerler! Onlara yemek, içmek, uyumak, dua etmek ve âşık olmak, vs. için gerekli toplumsallığı sağlayan şarkı nakaratlarına gereksinimleri vardır. Ama ne Antikçağ ne de Ortaçağ bu yalnızlık gereksinimini göz ardı etmiyordu, ifade ettiği şeye saygı gösteriliyordu. Çağımız, sonu gelmeyen toplumsallığı ile yalnızca suçlulara uygulamayı bildiği yalnızlık karşısında titremektedir. Günümüzde kendini ruhuna terk etmek bir suçtur ve o hâlde yalnızlığın âşığı insanlarımızın suçlularla birlikte aynı kategoride sayılmasından daha normal hiçbir şey yoktur. Kapalı umutsuz kişi ben’inin kendisiyle ilişkisiyle meşgul olarak saatleri, sonsuzluk için yaşanmamış olsa da sonsuzlukla bir parça ilişkisi olan ardışık saatleri boşuna yaşar; aslında ilerlemez. Ama bu saatleri geçirdikten ve yalnızlık gereksinimi yatıştıktan sonra sanki dışarı çıkıyor gibidir; karısını ve çocuklarını bulmak için eve geldiği zaman bile. Onu nazik bir koca, özenli bir baba yapan şey, babacan özünün ve görev duygusunun dışında, kendi içinde güçsüzlüğünden oluşturduğu itiraftır.”
