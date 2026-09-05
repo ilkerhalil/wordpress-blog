@@ -8,6 +8,7 @@ const books = (await getCollection('books')).sort(
 
 const fmt = (d: Date) =>
   d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout
@@ -20,7 +21,7 @@ const fmt = (d: Date) =>
       <p class="page-sub">{books.length} inceleme</p>
       <div class="card-list">
         {books.map((b) => (
-          <a class="card" href={`/kitaplar/${b.id}/`}>
+          <a class="card" href={`${base}kitaplar/${b.id}/`}>
             <h3>{b.data.title}</h3>
             <div class="meta">{fmt(b.data.date)}</div>
             <p class="excerpt">{b.data.description}</p>

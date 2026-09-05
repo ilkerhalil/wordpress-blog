@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout
@@ -20,7 +21,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           Şiirlerim ise günlük hayatın, duyguların ve varoluşun izlerini taşıyor.
         </p>
         <p>
-          <a href="/kitaplar/">Kitap incelemeleri</a> · <a href="/siirler/">Şiirler</a>
+          <a href={`${base}kitaplar/`}>Kitap incelemeleri</a> · <a href={`${base}siirler/`}>Şiirler</a>
         </p>
       </div>
     </div>

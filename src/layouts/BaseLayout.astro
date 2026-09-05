@@ -20,6 +20,8 @@ const {
   canonical = new URL(Astro.url.pathname, Astro.site).href,
 } = Astro.props;
 
+const base = import.meta.env.BASE_URL;
+
 const fullTitle = title === SITE.title ? title : `${title} — ${SITE.title}`;
 const ogImage = new URL(image, Astro.site).href;
 const jsonLd = {
@@ -76,7 +78,7 @@ const jsonLd = {
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a href="/" class="brand">
+        <a href={base} class="brand">
           <span class="brand-mark">İHT</span>
           <span class="brand-text">
             <strong>{SITE.author}</strong>
@@ -84,10 +86,10 @@ const jsonLd = {
           </span>
         </a>
         <nav class="nav" aria-label="Ana menü">
-          <a href="/">Ana Sayfa</a>
-          <a href="/kitaplar/">Kitap İncelemeleri</a>
-          <a href="/siirler/">Şiirler</a>
-          <a href="/hakkimda/">Hakkımda</a>
+          <a href={base}>Ana Sayfa</a>
+          <a href={`${base}kitaplar/`}>Kitap İncelemeleri</a>
+          <a href={`${base}siirler/`}>Şiirler</a>
+          <a href={`${base}hakkimda/`}>Hakkımda</a>
         </nav>
       </div>
     </header>
@@ -100,7 +102,7 @@ const jsonLd = {
       <div class="container">
         <p>© {new Date().getFullYear()} {SITE.author} — {SITE.tagline}</p>
         <p class="footer-links">
-          <a href="/kitaplar/">Kitaplar</a> · <a href="/siirler/">Şiirler</a> · <a href="/hakkimda/">Hakkımda</a>
+          <a href={`${base}kitaplar/`}>Kitaplar</a> · <a href={`${base}siirler/`}>Şiirler</a> · <a href={`${base}hakkimda/`}>Hakkımda</a>
         </p>
       </div>
     </footer>
