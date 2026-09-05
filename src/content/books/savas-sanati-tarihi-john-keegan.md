@@ -1,7 +1,7 @@
 ---
 title: "Savaş Sanatı Tarihi – John Keegan"
 date: 2020-04-05
-description: "Savaş Sanatı Tarihi – John Keegan — İlker Halil Türer'in kitap incelemesi."
+description: "John Keegan İngiliz askeri tarihçisidir. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

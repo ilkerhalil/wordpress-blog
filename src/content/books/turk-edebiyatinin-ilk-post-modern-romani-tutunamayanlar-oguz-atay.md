@@ -1,7 +1,7 @@
 ---
 title: "Türk Edebiyatının ilk Post modern Romanı Tutunamayanlar – Oğuz Atay"
 date: 2017-03-12
-description: "Türk Edebiyatının ilk Post modern Romanı Tutunamayanlar – Oğuz Atay — İlker Halil Türer'in kitap incelemesi."
+description: "1977 Yılında kaybettiğimiz Oğuz Atay etkileri açısından, Türk romanında önemli yazarlarından biri. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

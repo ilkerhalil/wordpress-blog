@@ -13,9 +13,26 @@ export async function getStaticPaths() {
 const { poem } = Astro.props;
 const { Content } = await render(poem);
 const base = import.meta.env.BASE_URL;
+const canonical = new URL(`/siirler/${poem.id}/`, Astro.site).href;
+const coverUrl = poem.data.cover
+  ? new URL(poem.data.cover.replace(/^\//, ''), Astro.site).href
+  : undefined;
 
 const fmt = (d: Date) =>
   d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// CreativeWork schema
+const poemJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  name: poem.data.title,
+  description: poem.data.description,
+  ...(coverUrl ? { image: coverUrl } : {}),
+  inLanguage: 'tr',
+  datePublished: poem.data.date.toISOString(),
+  author: { '@type': 'Person', name: 'İlker Halil Türer' },
+  url: canonical,
+};
 ---
 
 <BaseLayout
@@ -23,7 +40,9 @@ const fmt = (d: Date) =>
   description={poem.data.description}
   type="article"
   date={poem.data.date}
+  canonical={canonical}
   image={poem.data.cover || undefined}
+  jsonLd={[poemJsonLd]}
 >
   <article class="poem-article">
     <div class="container">
@@ -52,50 +71,51 @@ const fmt = (d: Date) =>
 </BaseLayout>
 
 <style>
-  .poem-article { padding: 3rem 0 4rem; }
+  .poem-article { padding: var(--space-xl) 0 var(--space-2xl); }
   .poem-header {
     display: grid;
     grid-template-columns: 220px 1fr;
-    gap: 2rem;
+    gap: var(--space-xl);
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: var(--space-xl);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: var(--space-xl);
   }
   .poem-cover-wrap {
-    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    border: 1px solid var(--line);
     aspect-ratio: 3/4;
   }
-  .poem-cover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
+  .poem-cover { width: 100%; height: 100%; object-fit: cover; display: block; }
   .poem-kicker {
-    font-size: 0.8rem;
+    font-family: var(--display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
     color: var(--accent);
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--space-sm);
   }
   .poem-heading h1 {
     font-family: var(--display);
     font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 400;
     line-height: 1.15;
-    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
   }
-  .poem-heading .meta { color: var(--ink-soft); }
+  .poem-heading .meta { color: var(--ink-soft); font-size: 0.8125rem; }
   .poem-body {
     font-family: var(--serif);
     font-size: 1.2rem;
+    font-weight: 300;
     line-height: 2;
     max-width: 32rem;
     margin: 0 auto;
     text-align: left;
   }
-  @media (max-width: 640px) {
-    .poem-header { grid-template-columns: 1fr; text-align: center; }
+  @media (max-width: 768px) {
+    .poem-header { grid-template-columns: 1fr; text-align: center; gap: var(--space-md); }
     .poem-cover-wrap { max-width: 220px; margin: 0 auto; }
   }
 </style>

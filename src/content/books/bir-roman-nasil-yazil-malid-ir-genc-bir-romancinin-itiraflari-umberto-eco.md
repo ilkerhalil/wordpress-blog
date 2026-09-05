@@ -1,7 +1,7 @@
 ---
 title: "Bir roman nasıl yazıl-malı-dır? Genç Bir Romancının İtirafları -Umberto Eco"
 date: 2017-07-28
-description: "Bir roman nasıl yazıl-malı-dır? Genç Bir Romancının İtirafları -Umberto Eco — İlker Halil Türer'in kitap incelemesi."
+description: "Yakın zamanda kaybettiğimiz Umberto Eco Genç Bir Romancının İtirafları’yla göstergebilim ve kendi romancılık deneyimleriyle adeta -kurgu nedir,nasıl olmalı — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Popüler kültürün savaşa etkileri. Yengeç Adımlarıyla Sıcak Savaşlar ve Medyatik Popülizm -Umberto Eco"
 date: 2016-12-08
-description: "Popüler kültürün savaşa etkileri. Yengeç Adımlarıyla Sıcak Savaşlar ve Medyatik Popülizm -Umberto Eco — İlker Halil Türer'in kitap incelemesi."
+description: "Geçtiğimiz günlerde kaybettiğimiz Umberto Eco’nun külliyatına devamla okuduğum Yengeç Adımlarıyla Sıcak Savaşlar ve Medyatik Popülizm yazarın yakın dönemde — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

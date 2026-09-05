@@ -1,7 +1,7 @@
 ---
 title: "Ergen bir Amerikan rüyası “Ekmek Arası” -Charles Bukowski"
 date: 2015-11-21
-description: "Ergen bir Amerikan rüyası “Ekmek Arası” -Charles Bukowski — İlker Halil Türer'in kitap incelemesi."
+description: "Charles Bukowski kuşkusuz son dönem Amerikan edebiyatının en önemli yazarlarından biri. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

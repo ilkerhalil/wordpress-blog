@@ -1,7 +1,7 @@
 ---
 title: "Proust – Swann’ların Tarafı"
 date: 2015-08-16
-description: "Proust – Swann’ların Tarafı — İlker Halil Türer'in kitap incelemesi."
+description: "Proust’un Kayıp Zamanın İzinde serisinin ilk kitabı. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

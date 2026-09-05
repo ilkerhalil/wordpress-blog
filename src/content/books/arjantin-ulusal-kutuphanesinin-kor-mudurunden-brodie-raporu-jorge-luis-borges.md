@@ -1,7 +1,7 @@
 ---
 title: "Arjantin Ulusal Kütüphanesinin ‘kör’ müdüründen Brodie Raporu -Jorge Luis Borges"
 date: 2015-11-27
-description: "Arjantin Ulusal Kütüphanesinin ‘kör’ müdüründen Brodie Raporu -Jorge Luis Borges — İlker Halil Türer'in kitap incelemesi."
+description: "Dünya edebiyatının kuşkusuz en özgün isimlerinden biri olan olan Borges, ölümü olan 1986 yılına değin bir çok alanda (çeviri,roman,hikaye) eserler verdi. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

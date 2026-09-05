@@ -4,7 +4,7 @@ export const SITE = {
   description:
     'Kitap incelemeleri ve şiirler — İlker Halil Türer\'in kişisel yazı blogu.',
   author: 'İlker Halil Türer',
-  authorUrl: 'https://ilkerhalil.github.io',
+  authorUrl: 'https://ilker.turer.io',
   tagline: 'Kitap & Şiir',
   ogImage: '/og-default.png',
   lang: 'tr',

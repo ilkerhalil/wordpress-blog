@@ -1,7 +1,7 @@
 ---
 title: "Kısırdöngü"
 date: 2005-07-25
-description: "Kısırdöngü — İlker Halil Türer şiiri."
+description: "Alısmışsınız birbirinize acı cektirmeye — Kısırdöngü şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "two people locked in a painful cycle, teacups and empty alcohol bottles on a table, blurred figures reaching but not touching, existential melancholy"
 cover: "/covers/718.jpg"

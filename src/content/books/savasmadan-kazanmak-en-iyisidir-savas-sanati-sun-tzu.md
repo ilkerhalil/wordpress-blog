@@ -1,7 +1,7 @@
 ---
 title: "“Savaşmadan kazanmak en iyisidir” Savaş Sanatı – Sun Tzu"
 date: 2015-08-26
-description: "“Savaşmadan kazanmak en iyisidir” Savaş Sanatı – Sun Tzu — İlker Halil Türer'in kitap incelemesi."
+description: "“İnsanlar Bir Kez Birleştiler mi, Cesurlar Tek Başlarına İlerleyemez, Korkaklar ise Tek Başlarına Geri Çekilemezler. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

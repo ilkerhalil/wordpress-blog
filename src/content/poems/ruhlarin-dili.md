@@ -1,7 +1,7 @@
 ---
 title: "Ruhların Dili"
 date: 2005-07-31
-description: "Ruhların Dili — İlker Halil Türer şiiri."
+description: "adam masada yanan sigaraya — Ruhların Dili şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "two hands almost touching over a burning cigarette on a café table, souls communicating silently, smoke curling, unspoken words"
 cover: "/covers/733.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Eskişehir Hatırası"
 date: 2005-07-25
-description: "Eskişehir Hatırası — İlker Halil Türer şiiri."
+description: "Bıçağın yağmura saplandığı bir geceydi porsuk boylu boyunca — Eskişehir Hatırası şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "a knife stabbing into rain, the Porsuk river flooding a night city, sirens and rats, Eskişehir noir, haunting memory"
 cover: "/covers/732.jpg"

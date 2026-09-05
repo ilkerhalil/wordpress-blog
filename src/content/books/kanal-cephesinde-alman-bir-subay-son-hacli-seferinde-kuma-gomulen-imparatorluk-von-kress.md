@@ -1,7 +1,7 @@
 ---
 title: "Kanal Cephesinde Alman Bir Subay “Son Haçlı Seferinde Kuma Gömülen İmparatorluk” -Von Kress"
 date: 2015-11-22
-description: "Kanal Cephesinde Alman Bir Subay “Son Haçlı Seferinde Kuma Gömülen İmparatorluk” -Von Kress — İlker Halil Türer'in kitap incelemesi."
+description: "Anı kitaplarına verdiğim önemi daha önce yazdığım yazılarımda yazmıştım. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

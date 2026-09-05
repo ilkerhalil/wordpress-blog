@@ -1,7 +1,7 @@
 ---
 title: "Bir yalanla nasıl 6 Milyon insan öldürülebilir? Prag Mezarlığı – Umberto Eco"
 date: 2016-05-20
-description: "Bir yalanla nasıl 6 Milyon insan öldürülebilir? Prag Mezarlığı – Umberto Eco — İlker Halil Türer'in kitap incelemesi."
+description: "1932 doğumlu Umberto Eco’yu 19 Şubat’ta kaybettik. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

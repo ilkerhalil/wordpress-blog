@@ -1,7 +1,7 @@
 ---
 title: "2 Aşk 3 Cinayet “Thérèse Raquin” – Emile Zola"
 date: 2015-08-28
-description: "2 Aşk 3 Cinayet “Thérèse Raquin” – Emile Zola — İlker Halil Türer'in kitap incelemesi."
+description: "Geçen yüzyılın en büyük yazar ve siyaset adamlarından olan Emile Zola aynı zaman da Natüralizm akımının-da kurucusu olarak bilinir. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

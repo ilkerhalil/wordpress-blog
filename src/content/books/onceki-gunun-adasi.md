@@ -1,7 +1,7 @@
 ---
 title: "Sempati tozu nedir,bilir misiniz? Farklı bir roman. Önceki Günün Adası – Umberto Eco"
 date: 2015-08-23
-description: "Sempati tozu nedir,bilir misiniz? Farklı bir roman. Önceki Günün Adası – Umberto Eco — İlker Halil Türer'in kitap incelemesi."
+description: "Roman Batan bir gemiden kurtulup başka bir gemide karaya çıkan (yüzme bilmeyen) İtalyan bir soylunun oğlu Roberto de la Grive öyküsünü, sevgilisine yazdığı — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

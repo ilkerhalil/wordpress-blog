@@ -78,10 +78,18 @@ for (const [url, v] of Object.entries(blog)) {
   const title = decodeEntities(v.title).replace(/\s+/g, ' ').trim();
   const body = toMarkdown(v.body);
   const date = `${year}-${month}-${day}`;
+  // İçerikten anlamlı description üret (ilk cümle, 150-160 karakter)
+  const firstSentence = body
+    .replace(/\s+/g, ' ')
+    .match(/[^.!?]+[.!?]/);
+  const excerpt = (firstSentence ? firstSentence[0] : body.slice(0, 160))
+    .trim()
+    .slice(0, 155);
+  const description = `${excerpt} — İlker Halil Türer'in kitap incelemesi.`;
   const fm = `---
 title: "${title.replace(/"/g, '\\"')}"
 date: ${date}
-description: "${title.replace(/"/g, '\\"')} — İlker Halil Türer'in kitap incelemesi."
+description: "${description.replace(/"/g, '\\"')}"
 tags: ["kitap", "inceleme"]
 ---
 
@@ -129,10 +137,18 @@ for (const [title, text] of Object.entries(poems)) {
   const prompt = prompts[title] || '';
   const postId = POST_IDS[title];
   const cover = postId ? `/covers/${postId}.jpg` : '';
+  // Şiirin ilk mısralarından description üret
+  const poemLines = body
+    .replace(/  \n/g, '\n')
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+  const firstLines = poemLines.slice(0, 3).join(' ');
+  const poemDesc = `${firstLines.slice(0, 120)} — ${title} şiiri, İlker Halil Türer.`;
   const fm = `---
 title: "${title.replace(/"/g, '\\"')}"
 date: ${date}
-description: "${title.replace(/"/g, '\\"')} — İlker Halil Türer şiiri."
+description: "${poemDesc.replace(/"/g, '\\"')}"
 tags: ["şiir"]
 coverPrompt: "${(prompt || '').replace(/"/g, '\\"')}"
 cover: "${cover}"

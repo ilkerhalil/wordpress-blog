@@ -1,7 +1,7 @@
 ---
 title: "Yitik Hayal"
 date: 2007-05-28
-description: "Yitik Hayal — İlker Halil Türer şiiri."
+description: "ellerinin titrediği bir gün oturup düşünmeye başlarsın yıllarca olan biten herşeyi, — Yitik Hayal şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "trembling hands holding a glass, a cold empty side of the bed, fading memories, loneliness and alcohol, black and white dream"
 cover: "/covers/729.jpg"

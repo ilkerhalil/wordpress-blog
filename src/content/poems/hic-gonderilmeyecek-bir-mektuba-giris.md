@@ -1,7 +1,7 @@
 ---
 title: "Hiç gönderilmeyecek bir mektuba giriş"
 date: 2007-12-19
-description: "Hiç gönderilmeyecek bir mektuba giriş — İlker Halil Türer şiiri."
+description: "Bu kadar güzel olmalarına rağmen neden ölürlerdi kelebekler. Güzelliğin bedeli belki. Doğa verdiklerinin karşılığını acı — Hiç gönderilmeyecek bir mektuba giriş şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "an unsent letter and wilting butterflies on a snowy windowsill, melancholic longing, sealed envelope, quiet grief"
 cover: "/covers/730.jpg"

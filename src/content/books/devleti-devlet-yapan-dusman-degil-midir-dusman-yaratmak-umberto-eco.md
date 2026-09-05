@@ -1,7 +1,7 @@
 ---
 title: "Devleti devlet yapan düşman değil midir? Düşman Yaratmak – Umberto Eco"
 date: 2016-12-08
-description: "Devleti devlet yapan düşman değil midir? Düşman Yaratmak – Umberto Eco — İlker Halil Türer'in kitap incelemesi."
+description: "Kişisel Umberto Eco külliyetine devamla okuduğum Düşman Yaratmak yazarın çeşitli dönemlerde kaleme alınan denemeler ve konferanslarından oluşuyor. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

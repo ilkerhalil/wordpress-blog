@@ -1,7 +1,7 @@
 ---
 title: "Yağmur ve İstanbul"
 date: 2005-07-25
-description: "Yağmur ve İstanbul — İlker Halil Türer şiiri."
+description: "ne zaman yagmur yağsa ben sokağa — Yağmur ve İstanbul şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "rainy Istanbul skyline at dusk seen from a hill, seven hills, mosque silhouettes, warm window lights reflected in wet streets, a solitary admirer"
 cover: "/covers/720.jpg"

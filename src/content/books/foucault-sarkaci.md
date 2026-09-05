@@ -1,7 +1,7 @@
 ---
 title: "Umberto Eco – Foucault Sarkacı"
 date: 2015-08-03
-description: "Umberto Eco – Foucault Sarkacı — İlker Halil Türer'in kitap incelemesi."
+description: "Aydınlanmayı nasıl bilirsiniz? — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

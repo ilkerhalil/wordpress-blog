@@ -1,7 +1,7 @@
 ---
 title: "Bizim sesimize çok benzeyen bir ses. “Ödlekler Cesurdur” William Saroyan"
 date: 2015-11-03
-description: "Bizim sesimize çok benzeyen bir ses. “Ödlekler Cesurdur” William Saroyan — İlker Halil Türer'in kitap incelemesi."
+description: "Bingöl’den Amerika’ya göçmüş ermeni bir ailenin çocuğu William Saroyan’un isimini yıllar önce C. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

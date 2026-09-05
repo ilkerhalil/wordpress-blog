@@ -1,7 +1,7 @@
 ---
 title: "Savaş kahramanlığından siyasete. 10 Yıl Savaş ve Sonrası – Fahrettin Altay"
 date: 2015-08-22
-description: "Savaş kahramanlığından siyasete. 10 Yıl Savaş ve Sonrası – Fahrettin Altay — İlker Halil Türer'in kitap incelemesi."
+description: "Anı kitapları tarih okuması açısından en verimli eserler olduğunu düşünürüm. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

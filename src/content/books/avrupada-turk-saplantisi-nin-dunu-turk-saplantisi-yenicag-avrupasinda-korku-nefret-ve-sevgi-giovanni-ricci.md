@@ -1,7 +1,7 @@
 ---
 title: "“Avrupa’da -Türk Saplantısı-nın dünü” – TÜRK SAPLANTISI; YENİÇAĞ AVRUPASINDA KORKU, NEFRET VE SEVGİ – Giovanni Ricci"
 date: 2020-12-03
-description: "“Avrupa’da -Türk Saplantısı-nın dünü” – TÜRK SAPLANTISI; YENİÇAĞ AVRUPASINDA KORKU, NEFRET VE SEVGİ – Giovanni Ricci — İlker Halil Türer'in kitap incelemesi."
+description: "İtalyan tarihçi Giovanni Ricci Avrupa’daki “Türk saplantısı” meselesini ele aldığı bu eserinde, özellikle İtalyan tarihinde müslümanlara bakışı ve İslamiye — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

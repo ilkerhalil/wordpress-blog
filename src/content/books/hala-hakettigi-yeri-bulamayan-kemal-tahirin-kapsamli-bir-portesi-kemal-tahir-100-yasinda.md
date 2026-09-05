@@ -1,7 +1,7 @@
 ---
 title: "Hala hakettiği yeri bulamayan Kemal Tahir’in kapsamlı bir portesi – Kemal Tahir 100 Yaşında"
 date: 2017-01-29
-description: "Hala hakettiği yeri bulamayan Kemal Tahir’in kapsamlı bir portesi – Kemal Tahir 100 Yaşında — İlker Halil Türer'in kitap incelemesi."
+description: "Cumhuriyet tarihinin belki de en etkili romanlarını kaleme alan Kemal Tahir sadece romanları ile değil Tarih tezleriyle’de kültür tarihimizi etkiledi. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

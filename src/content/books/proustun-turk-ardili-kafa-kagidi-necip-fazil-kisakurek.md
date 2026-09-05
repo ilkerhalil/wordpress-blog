@@ -1,7 +1,7 @@
 ---
 title: "Proust’un Türk ardılı “Kafa Kağıdı” – Necip Fazıl Kısakürek"
 date: 2015-09-21
-description: "Proust’un Türk ardılı “Kafa Kağıdı” – Necip Fazıl Kısakürek — İlker Halil Türer'in kitap incelemesi."
+description: "Cumhuriyet döneminin en tartışmalı isimlerinden biri Necip Fazıl. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

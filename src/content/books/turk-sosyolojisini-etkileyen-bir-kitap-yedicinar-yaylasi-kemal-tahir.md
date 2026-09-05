@@ -1,7 +1,7 @@
 ---
 title: "Türk Sosyolojisini etkileyen bir kitap. Yediçınar Yaylası – Kemal Tahir"
 date: 2015-08-23
-description: "Türk Sosyolojisini etkileyen bir kitap. Yediçınar Yaylası – Kemal Tahir — İlker Halil Türer'in kitap incelemesi."
+description: "#Kitap Kemal Tahir’in toprak ağalığını ve eşkıyayı ele alan üçlemesinin ilk kitabı olan Yedi Çınar Yaylası özellikle Meşrutiyet sonrası değişen sosyal yapı — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

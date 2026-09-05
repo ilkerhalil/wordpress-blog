@@ -1,7 +1,7 @@
 ---
 title: "Kemal Tahir – Yorgun Savaşçı"
 date: 2015-08-12
-description: "Kemal Tahir – Yorgun Savaşçı — İlker Halil Türer'in kitap incelemesi."
+description: "Kemal Tahir’in hatta Cumhuriyet döneminin en tartışmalı eserlerinden biridir. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

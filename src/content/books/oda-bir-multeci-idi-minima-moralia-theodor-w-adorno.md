@@ -1,7 +1,7 @@
 ---
 title: "O’da bir mülteci idi. Minima Moralia -Theodor W. Adorno"
 date: 2015-11-29
-description: "O’da bir mülteci idi. Minima Moralia -Theodor W. Adorno — İlker Halil Türer'in kitap incelemesi."
+description: "Çok merak ettiğim Frankfurt okulu filozoflarına Adorno ile devam ettim. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

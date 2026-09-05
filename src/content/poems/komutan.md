@@ -1,7 +1,7 @@
 ---
 title: "Komutan"
 date: 2005-07-25
-description: "Komutan — İlker Halil Türer şiiri."
+description: "Izırhlı tümenler geçerken önünden yaşanmamış aşkları düşündü — Komutan şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "a defeated commander in tattered uniform watching armored divisions pass, crumbling castle, ruined battlefield, proud but beaten"
 cover: "/covers/735.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Varoluşun Umutsuzluk sorununa kuzeyden bir bakış. Ölümcül Hastalık Umutsuzluk -Søren Kierkegaard"
 date: 2016-12-08
-description: "Varoluşun Umutsuzluk sorununa kuzeyden bir bakış. Ölümcül Hastalık Umutsuzluk -Søren Kierkegaard — İlker Halil Türer'in kitap incelemesi."
+description: "Varoloşcu felsefenin önemli öncülerinden Danimarkalı filozof Søren Kierkegaard (5 Mayıs 1813 – 11 Kasım 1855) yine bir çok aynı dönem filozofu gibi dini bi — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

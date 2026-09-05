@@ -12,9 +12,32 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props;
 const { Content } = await render(book);
+const base = import.meta.env.BASE_URL;
+const canonical = new URL(`/kitaplar/${book.id}/`, Astro.site).href;
 
 const fmt = (d: Date) =>
   d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Kitap adını başlıktan çıkar (yazar kısmını ayır)
+const titleParts = book.data.title.split('–');
+const bookTitle = titleParts[0].trim();
+const authorName = titleParts.length > 1 ? titleParts[titleParts.length - 1].trim() : '';
+
+// Book + Review schema
+const bookJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: bookTitle,
+  ...(authorName ? { author: { '@type': 'Person', name: authorName } } : {}),
+  inLanguage: 'tr',
+  review: {
+    '@type': 'Review',
+    reviewBody: book.data.description,
+    datePublished: book.data.date.toISOString(),
+    author: { '@type': 'Person', name: 'İlker Halil Türer' },
+    url: canonical,
+  },
+};
 ---
 
 <BaseLayout
@@ -22,10 +45,13 @@ const fmt = (d: Date) =>
   description={book.data.description}
   type="article"
   date={book.data.date}
+  canonical={canonical}
+  jsonLd={[bookJsonLd]}
 >
   <article class="article">
     <div class="container">
       <header class="article-header">
+        <p class="article-kicker">Kitap İncelemesi</p>
         <h1>{book.data.title}</h1>
         <div class="meta">{fmt(book.data.date)}</div>
       </header>
@@ -35,3 +61,15 @@ const fmt = (d: Date) =>
     </div>
   </article>
 </BaseLayout>
+
+<style>
+  .article-kicker {
+    font-family: var(--display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: var(--space-sm);
+  }
+</style>

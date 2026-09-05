@@ -1,7 +1,7 @@
 ---
 title: "Bir Ortadoğu Masalı"
 date: 2007-04-30
-description: "Bir Ortadoğu Masalı — İlker Halil Türer şiiri."
+description: "''Hayallerine patlarken Ömer Ürdün çölünden bir rüzgar eser, — Bir Ortadoğu Masalı şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "epic Middle Eastern mythological panorama, desert wind, ancient Jerusalem wall, crusader army in snow, legendary figures, mystical and timeless"
 cover: "/covers/728.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Oscar Wilde – Dorian Gray’in Portresi"
 date: 2015-08-15
-description: "Oscar Wilde – Dorian Gray’in Portresi — İlker Halil Türer'in kitap incelemesi."
+description: "19 yy’in en çok etkileyen yazarlarından Oscar Wilde‘in en bilinen romanı dersem sanıyorum yanılmış olmam. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

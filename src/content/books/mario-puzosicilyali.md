@@ -1,7 +1,7 @@
 ---
 title: "Sicilyalı – Mario Puzo"
 date: 2020-04-04
-description: "Sicilyalı – Mario Puzo — İlker Halil Türer'in kitap incelemesi."
+description: "Mario Puzo‘nun Salvatore Giuliano‘nun hayatından etkilenip Sicilyalı yazarın Baba serisinin devamı olarak 1984’de yayınladığı bir romanı. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

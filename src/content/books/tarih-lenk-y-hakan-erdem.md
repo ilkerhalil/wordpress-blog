@@ -1,7 +1,7 @@
 ---
 title: "Tarih-Lenk – Y. Hakan Erdem"
 date: 2020-04-06
-description: "Tarih-Lenk – Y. Hakan Erdem — İlker Halil Türer'in kitap incelemesi."
+description: "Ülkemizdeki -bence- en önemli tarihçilerden Y. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

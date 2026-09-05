@@ -1,7 +1,7 @@
 ---
 title: "Gerçekleşecek bir dileğiniz olsa,ne dilerdiniz? Binboğalar Efsanesi – Yaşar Kemal"
 date: 2015-08-29
-description: "Gerçekleşecek bir dileğiniz olsa,ne dilerdiniz? Binboğalar Efsanesi – Yaşar Kemal — İlker Halil Türer'in kitap incelemesi."
+description: "Yakınlarda kaybettiğimiz Yaşar Kemal, yazarlığının dışında da siyasi kişiliği ile çok önce çıkan belki de Türkçe’nin en önemli yazarlarındandı. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

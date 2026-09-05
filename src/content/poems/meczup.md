@@ -1,7 +1,7 @@
 ---
 title: "Meczup"
 date: 2005-07-25
-description: "Meczup — İlker Halil Türer şiiri."
+description: "kaldırımdaydı,kartonlarla yatarken bulutların çaktığı bir şimşek ateşledi aklındaki — Meczup şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "a madman sleeping on cardboard under storm clouds, a lightning flash, a green mushaf pressed to his heart, city chaos around him"
 cover: "/covers/740.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "3 Hikaye yazmak için kaç sene verebilirsiniz? “Üç Hikaye” Gustave Flaubert"
 date: 2015-10-15
-description: "3 Hikaye yazmak için kaç sene verebilirsiniz? “Üç Hikaye” Gustave Flaubert — İlker Halil Türer'in kitap incelemesi."
+description: "Yaşarken anlaşılamamış Dünya Romanının en başarılı isimlerinden olan Flaubert,1821 yılında doğdu. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

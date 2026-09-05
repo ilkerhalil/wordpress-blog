@@ -1,7 +1,7 @@
 ---
 title: "Tapınağın Yalnız Kralı"
 date: 2007-02-06
-description: "Tapınağın Yalnız Kralı — İlker Halil Türer şiiri."
+description: "ben tapınağın yalnız kralı, beni burada — Tapınağın Yalnız Kralı şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "a solitary king on a throne in an empty dark temple, a glass of wine, Nietzschean isolation, grand tragic solitude"
 cover: "/covers/739.jpg"

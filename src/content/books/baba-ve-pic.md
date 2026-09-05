@@ -1,7 +1,7 @@
 ---
 title: "Elif Şafak – Baba ve Piç"
 date: 2015-08-13
-description: "Elif Şafak – Baba ve Piç — İlker Halil Türer'in kitap incelemesi."
+description: "Türk romanının son 10 yıl içinde Orhan Pamuk’tan sonra en çok konuşulan yazarlarından Elif Şafak’ın sanıyorum en güzel romanı. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

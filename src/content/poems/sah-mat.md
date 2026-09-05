@@ -1,7 +1,7 @@
 ---
 title: "Şah,mat *"
 date: 2007-02-26
-description: "Şah,mat * — İlker Halil Türer şiiri."
+description: "bir sokakla paylaşırken yalnızlığını cebinde piyonlar, kaleler,atlar, — Şah,mat * şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "chess pieces falling from a pocket into darkness, a lone king, a street shared with loneliness, checkmate symbolism"
 cover: "/covers/734.jpg"

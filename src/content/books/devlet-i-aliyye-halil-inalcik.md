@@ -1,7 +1,7 @@
 ---
 title: "Devlet-i Aliyye – Halil İnalcık"
 date: 2020-04-07
-description: "Devlet-i Aliyye – Halil İnalcık — İlker Halil Türer'in kitap incelemesi."
+description: "Ülkemizin yetiştirdiği en önemli tarhiçilerinden olan Halil İnancık Devlet-i Aliyye kitabında Osmanlı İmparatorluğunun ticari yaşamına önümüze adeta bir bü — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

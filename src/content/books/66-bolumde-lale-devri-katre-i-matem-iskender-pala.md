@@ -1,7 +1,7 @@
 ---
 title: "66 Bölümde Lale Devri “Katre-i Matem” İskender Pala"
 date: 2015-10-18
-description: "66 Bölümde Lale Devri “Katre-i Matem” İskender Pala — İlker Halil Türer'in kitap incelemesi."
+description: "Kara Şahin’in hayatı evlendiği günün sabahı çok sevdiği karısı Nakşıgül’ün paramparça cesedini yatağında bulunca tamamen değişecektir. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

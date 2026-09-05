@@ -1,7 +1,7 @@
 ---
 title: "Geçmiş Ayrıntıda Saklıdır – Cemil Koçak"
 date: 2015-09-13
-description: "Geçmiş Ayrıntıda Saklıdır – Cemil Koçak — İlker Halil Türer'in kitap incelemesi."
+description: "“Tarih bütün ilimlerin anasıdır” der İbn-i Haldun… Ülkemizde özellikle 2000’li yıllardan sonra en çok satan kitapların başlarında hep tarih ile ilgili kita — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

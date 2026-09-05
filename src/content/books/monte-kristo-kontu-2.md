@@ -1,7 +1,7 @@
 ---
 title: "Alexandre Dumas – Monte Kristo Kontu"
 date: 2015-08-03
-description: "Alexandre Dumas – Monte Kristo Kontu — İlker Halil Türer'in kitap incelemesi."
+description: "18 yy. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

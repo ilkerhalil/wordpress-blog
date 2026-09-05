@@ -1,7 +1,7 @@
 ---
 title: "Normandiya Çıkarmasının Perde Arkası – Hans Speidel"
 date: 2018-08-31
-description: "Normandiya Çıkarmasının Perde Arkası – Hans Speidel — İlker Halil Türer'in kitap incelemesi."
+description: "1897 yılında doğan II. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Kurtlukta düşeni yemek kanun mudur? “Kurt Kanunu” -Kemal Tahir"
 date: 2015-11-21
-description: "Kurtlukta düşeni yemek kanun mudur? “Kurt Kanunu” -Kemal Tahir — İlker Halil Türer'in kitap incelemesi."
+description: "Kemal Tahir’in en çok ses getiren romanlarından Kurt Kanunu, İzmir Suikasti üzerinden yakın tarihimizdeki önemli bir hesaplaşmanın perde arkasını gözler ön — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

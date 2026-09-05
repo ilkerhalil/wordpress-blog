@@ -1,7 +1,7 @@
 ---
 title: "Son Savaş"
 date: 2007-03-06
-description: "Son Savaş — İlker Halil Türer şiiri."
+description: "Tarık Bin Ziyad İber’e ulaştığında gemilerini yakmıştı.Biliyordu Bin Ziyad; geçmişin güzel hayalleri ancak güzel bir geç — Son Savaş şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "burning ships on a distant shore, a man burning old love letters in a fire, smoke rising, epic historical drama, Tarik bin Ziyad's fateful choice"
 cover: "/covers/716.jpg"

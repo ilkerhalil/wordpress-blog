@@ -1,7 +1,7 @@
 ---
 title: "Beyoğlu’ndan “sulukuru” bir roman Fındık Sekiz -Metin Kaçan"
 date: 2015-11-27
-description: "Beyoğlu’ndan “sulukuru” bir roman Fındık Sekiz -Metin Kaçan — İlker Halil Türer'in kitap incelemesi."
+description: "Metin Kaçan,Türk edebiyatının tartışmasız en renkli ve özgün isimlerinden birisi. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

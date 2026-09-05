@@ -1,7 +1,7 @@
 ---
 title: "Albert Camus – Düşüş"
 date: 2015-08-17
-description: "Albert Camus – Düşüş — İlker Halil Türer'in kitap incelemesi."
+description: "Sartre’dan sonra Varoluş’un ikinci adamı Albert Camus ,yakınçağın düşüncesini biçimlendiren yazarlardan. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

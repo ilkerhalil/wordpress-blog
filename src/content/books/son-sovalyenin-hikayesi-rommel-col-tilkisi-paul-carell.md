@@ -1,7 +1,7 @@
 ---
 title: "Son Şövalye’nin Hikayesi “Rommel / Çöl Tilkisi” – Paul Carell"
 date: 2015-08-23
-description: "Son Şövalye’nin Hikayesi “Rommel / Çöl Tilkisi” – Paul Carell — İlker Halil Türer'in kitap incelemesi."
+description: "Medeniyet mi liderlerin eseridir,liderler mi medeniyetin eseridir. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

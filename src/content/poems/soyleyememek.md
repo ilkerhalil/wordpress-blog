@@ -1,7 +1,7 @@
 ---
 title: "Söyleyememek"
 date: 2007-04-14
-description: "Söyleyememek — İlker Halil Türer şiiri."
+description: "bu gece desene hala bir umut var — Söyleyememek şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "a singer falling silent, burning himself in flames, Istanbul in the background, unspeakable words, last embers of hope"
 cover: "/covers/742.jpg"

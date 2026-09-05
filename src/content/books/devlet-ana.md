@@ -1,7 +1,7 @@
 ---
 title: "Kemal Tahir – Devlet Ana"
 date: 2015-08-16
-description: "Kemal Tahir – Devlet Ana — İlker Halil Türer'in kitap incelemesi."
+description: "Kemal Tahir‘in en tartışmalı romanlarından olan Devlet Ana yazıldığı yıldan itibaren Türk düşünce dünyasını derinden etkilemiştir. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 

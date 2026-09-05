@@ -1,7 +1,7 @@
 ---
 title: "Meczubun Türküsü"
 date: 2005-07-25
-description: "Meczubun Türküsü — İlker Halil Türer şiiri."
+description: "gelme üzerime karanlık gibi ben baskasına aidim olamam senin — Meczubun Türküsü şiiri, İlker Halil Türer."
 tags: ["şiir"]
 coverPrompt: "a lone madman in a dark street, butterflies and crows surrounding him, moonlight shadows, haunted isolation, folk-ballad sorrow"
 cover: "/covers/723.jpg"

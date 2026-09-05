@@ -1,7 +1,7 @@
 ---
 title: "Max Horkheimer – Akıl Tutulması"
 date: 2015-08-13
-description: "Max Horkheimer – Akıl Tutulması — İlker Halil Türer'in kitap incelemesi."
+description: "Frankurt Okulu’nun belki de en ünlü filozofu olan Horkheimer’in 5 yazısından oluşan bu kitap sıkı bir pozitivizm eleştirisini içeriyor. — İlker Halil Türer'in kitap incelemesi."
 tags: ["kitap", "inceleme"]
 ---
 
