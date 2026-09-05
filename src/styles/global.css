@@ -1,15 +1,36 @@
 :root {
-  --bg: #faf9f6;
-  --bg-alt: #f3f1ec;
-  --ink: #1f1d1a;
-  --ink-soft: #5c574f;
-  --accent: #8a5a2b;
-  --accent-soft: #e8dcc8;
-  --line: #e2ddd3;
-  --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  /* Stitch "Literary Warmth" tokens */
+  --surface: #faf9f6;
+  --surface-container: #efeeeb;
+  --surface-container-low: #f4f3f1;
+  --surface-container-high: #e9e8e5;
+  --ink: #221f1f;            /* primary ink */
+  --ink-soft: #66615c;       /* sepia slate for metadata */
+  --accent: #8a5a2b;         /* amber leather */
+  --accent-soft: #febf87;
+  --line: #eae5dc;           /* parchment hairline */
+  --antique: #f5f3ed;        /* quoted excerpt tint */
+  --on-surface: #1a1c1a;
+
+  /* Typography */
   --display: 'Playfair Display', Georgia, serif;
-  --radius: 10px;
-  --maxw: 720px;
+  --serif: 'Merriweather', Georgia, 'Times New Roman', serif;
+
+  /* Spacing */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.5rem;
+  --gutter-desktop: 2.5rem;
+  --gutter-mobile: 1rem;
+  --reading-width: 42rem;
+  --container-max: 74rem;
+
+  /* Shapes: sharp, book-cut */
+  --radius: 0px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -18,52 +39,58 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--serif);
-  background: var(--bg);
+  background: var(--surface);
   color: var(--ink);
-  line-height: 1.75;
-  font-size: 18px;
+  line-height: 1.875;
+  font-size: 17px;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
 
-.container { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem; }
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--gutter-desktop);
+}
 
 /* ---------- Header ---------- */
 .site-header {
   border-bottom: 1px solid var(--line);
-  background: var(--bg);
+  background: var(--surface);
   position: sticky;
   top: 0;
   z-index: 10;
-  backdrop-filter: blur(6px);
 }
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  gap: var(--space-lg);
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md);
 }
-.brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--ink); }
+.brand { display: flex; align-items: center; gap: var(--space-sm); text-decoration: none; color: var(--ink); }
 .brand-mark {
-  width: 42px; height: 42px;
+  width: 40px; height: 40px;
   display: grid; place-items: center;
   background: var(--ink);
-  color: var(--bg);
+  color: var(--surface);
   font-family: var(--display);
-  font-weight: 700;
-  font-size: 0.85rem;
+  font-weight: 400;
+  font-size: 0.9rem;
   letter-spacing: 0.05em;
-  border-radius: 8px;
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
-.brand-text strong { font-family: var(--display); font-size: 1.05rem; }
+.brand-text strong { font-family: var(--display); font-size: 1.1rem; font-weight: 400; }
 .brand-text small { color: var(--ink-soft); font-size: 0.8rem; }
-.nav { display: flex; gap: 1.1rem; }
+.nav { display: flex; gap: var(--space-lg); }
 .nav a {
   color: var(--ink-soft);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   transition: color 0.15s;
 }
 .nav a:hover { color: var(--accent); }
@@ -73,32 +100,48 @@ main { min-height: 60vh; }
 
 /* ---------- Hero ---------- */
 .hero {
-  padding: 4.5rem 0 3rem;
+  padding: var(--space-2xl) 0 var(--space-xl);
   text-align: center;
+  border-bottom: 1px solid var(--line);
+}
+.hero-kicker {
+  font-family: var(--display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-md);
 }
 .hero h1 {
   font-family: var(--display);
-  font-size: clamp(2.2rem, 6vw, 3.4rem);
-  font-weight: 700;
-  line-height: 1.15;
-  margin-bottom: 1rem;
+  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-md);
 }
-.hero p.lead {
-  font-size: 1.15rem;
+.hero .lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2.125rem;
   color: var(--ink-soft);
   max-width: 34rem;
   margin: 0 auto;
 }
 
 /* ---------- Section ---------- */
-.section { padding: 2.5rem 0; }
+.section { padding: var(--space-xl) 0; }
+.section-alt { background: var(--surface-container-low); }
 .section-title {
   font-family: var(--display);
-  font-size: 1.6rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  margin-bottom: var(--space-lg);
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: var(--space-md);
 }
 .section-title::after {
   content: '';
@@ -107,64 +150,163 @@ main { min-height: 60vh; }
   background: var(--line);
 }
 
-/* ---------- Cards ---------- */
-.card-list { display: grid; gap: 1rem; }
-.card {
-  display: block;
-  background: var(--bg-alt);
+/* ---------- Poem grid ---------- */
+.poem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+}
+.poem-card { text-decoration: none; color: var(--ink); display: block; }
+.poem-thumb {
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  margin-bottom: var(--space-sm);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1.1rem 1.3rem;
+  transition: opacity 0.15s;
+}
+.poem-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.poem-card:hover .poem-thumb { opacity: 0.9; }
+.poem-info h3 {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.2rem;
+}
+.poem-info .meta { font-size: 0.8125rem; color: var(--ink-soft); font-weight: 300; }
+
+/* ---------- Book list ---------- */
+.book-list { display: grid; }
+.book-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--line);
   text-decoration: none;
   color: var(--ink);
-  transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
+  transition: color 0.15s;
 }
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-  border-color: var(--accent-soft);
+.book-card:first-child { border-top: 1px solid var(--line); }
+.book-card:hover { color: var(--accent); }
+.book-num {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  color: var(--accent);
+  min-width: 2.5rem;
+  text-align: center;
 }
-.card h3 { font-family: var(--display); font-size: 1.15rem; line-height: 1.3; margin-bottom: 0.3rem; }
-.card .meta { font-size: 0.85rem; color: var(--ink-soft); }
-.card .excerpt {
-  font-size: 0.95rem;
-  color: var(--ink-soft);
-  margin-top: 0.4rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.book-body h3 {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.2rem;
 }
+.book-body .meta { font-size: 0.8125rem; color: var(--ink-soft); font-weight: 300; }
+
+/* ---------- Editorial link ---------- */
+.more-link { margin-top: var(--space-lg); }
+.more-link a {
+  font-family: var(--display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+  transition: color 0.15s, letter-spacing 0.15s;
+}
+.more-link a:hover { color: var(--accent); letter-spacing: 0.16em; }
+
+/* ---------- Page head ---------- */
+.page-head { margin-bottom: var(--space-xl); border-bottom: 1px solid var(--line); padding-bottom: var(--space-md); }
+.page-title {
+  font-family: var(--display);
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.3rem;
+}
+.page-sub { color: var(--ink-soft); font-size: 0.9375rem; }
 
 /* ---------- Article ---------- */
-.article { padding: 3rem 0 4rem; }
-.article-header { margin-bottom: 2rem; }
+.article { padding: var(--space-xl) 0 var(--space-2xl); }
+.article-header { margin-bottom: var(--space-xl); border-bottom: 1px solid var(--line); padding-bottom: var(--space-md); }
 .article-header h1 {
   font-family: var(--display);
-  font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+  font-size: clamp(1.75rem, 4.5vw, 2.5rem);
+  font-weight: 400;
   line-height: 1.2;
-  margin-bottom: 0.6rem;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.5rem;
 }
-.article-header .meta { color: var(--ink-soft); font-size: 0.9rem; }
-.article-body { font-size: 1.05rem; }
-.article-body p { margin-bottom: 1.2rem; }
-.article-body h2, .article-body h3 { font-family: var(--display); margin: 1.8rem 0 0.8rem; }
+.article-header .meta { color: var(--ink-soft); font-size: 0.8125rem; }
+.article-body {
+  font-size: 1.0625rem;
+  font-weight: 300;
+  line-height: 1.875rem;
+  max-width: var(--reading-width);
+}
+.article-body p { margin-bottom: var(--space-md); }
+.article-body h2, .article-body h3 { font-family: var(--display); margin: var(--space-lg) 0 var(--space-sm); font-weight: 400; }
 .article-body blockquote {
-  border-left: 3px solid var(--accent);
-  padding-left: 1rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--antique);
+  padding: var(--space-md) var(--space-lg);
   color: var(--ink-soft);
   font-style: italic;
-  margin: 1.2rem 0;
+  margin: var(--space-lg) 0;
 }
-.article-body a { color: var(--accent); }
+.article-body a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
 
-/* ---------- Poem ---------- */
+/* ---------- Poem detail ---------- */
+.poem-article { padding: var(--space-xl) 0 var(--space-2xl); }
+.poem-header {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: var(--space-xl);
+}
+.poem-cover-wrap {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  aspect-ratio: 3/4;
+}
+.poem-cover { width: 100%; height: 100%; object-fit: cover; display: block; }
+.poem-kicker {
+  font-family: var(--display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-sm);
+}
+.poem-heading h1 {
+  font-family: var(--display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-sm);
+}
+.poem-heading .meta { color: var(--ink-soft); font-size: 0.8125rem; }
 .poem-body {
   font-family: var(--serif);
-  font-size: 1.15rem;
-  line-height: 1.9;
-  white-space: pre-line;
-  max-width: 30rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2;
+  max-width: 32rem;
   margin: 0 auto;
   text-align: left;
 }
@@ -172,20 +314,35 @@ main { min-height: 60vh; }
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--line);
-  padding: 2rem 0;
-  margin-top: 3rem;
+  padding: var(--space-xl) 0;
+  margin-top: var(--space-2xl);
   color: var(--ink-soft);
-  font-size: 0.9rem;
+  font-size: 0.8125rem;
   text-align: center;
 }
-.footer-links { margin-top: 0.4rem; }
-.footer-links a { color: var(--ink-soft); text-decoration: none; }
+.footer-links { margin-top: var(--space-sm); }
+.footer-links a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-family: var(--display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
 .footer-links a:hover { color: var(--accent); }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 640px) {
-  body { font-size: 17px; }
-  .header-inner { flex-direction: column; gap: 0.5rem; }
-  .nav { gap: 0.9rem; }
-  .hero { padding: 3rem 0 2rem; }
+@media (max-width: 1024px) {
+  .poem-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 768px) {
+  .container { padding: 0 var(--gutter-mobile); }
+  .header-inner { flex-direction: column; gap: var(--space-sm); }
+  .nav { gap: var(--space-md); }
+  .hero { padding: var(--space-xl) 0 var(--space-lg); }
+  .poem-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-md); }
+  .poem-header { grid-template-columns: 1fr; text-align: center; gap: var(--space-md); }
+  .poem-cover-wrap { max-width: 220px; margin: 0 auto; }
+  .section { padding: var(--space-lg) 0; }
 }
