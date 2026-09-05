@@ -4,8 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ilkerhalil.github.io',
-  base: '/wordpress-blog/',
+  site: 'https://ilker.turer.io',
   output: 'static',
   integrations: [sitemap()],
   markdown: {
