@@ -4,6 +4,7 @@ date: 2005-07-25
 description: "Meczubun Türküsü — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a lone madman in a dark street, butterflies and crows surrounding him, moonlight shadows, haunted isolation, folk-ballad sorrow"
+cover: "/covers/723.jpg"
 ---
 
 gelme üzerime karanlık gibi  

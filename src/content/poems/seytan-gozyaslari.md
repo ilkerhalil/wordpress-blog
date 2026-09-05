@@ -4,6 +4,7 @@ date: 2008-02-12
 description: "Şeytan Gözyaşları — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "fallen angels of Babylon, roman legions in the desert, soldiers firing at a sphinx, occult dark fantasy"
+cover: "/covers/738.jpg"
 ---
 
 okurken kadim sözleri  

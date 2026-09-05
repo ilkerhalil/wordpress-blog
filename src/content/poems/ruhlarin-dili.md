@@ -4,6 +4,7 @@ date: 2005-07-31
 description: "Ruhların Dili — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "two hands almost touching over a burning cigarette on a café table, souls communicating silently, smoke curling, unspoken words"
+cover: "/covers/733.jpg"
 ---
 
 adam  

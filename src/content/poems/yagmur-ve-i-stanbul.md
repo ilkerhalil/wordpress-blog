@@ -4,6 +4,7 @@ date: 2005-07-25
 description: "Yağmur ve İstanbul — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "rainy Istanbul skyline at dusk seen from a hill, seven hills, mosque silhouettes, warm window lights reflected in wet streets, a solitary admirer"
+cover: "/covers/720.jpg"
 ---
 
 ne zaman   

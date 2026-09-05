@@ -4,6 +4,7 @@ date: 2007-05-28
 description: "Yitik Hayal — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "trembling hands holding a glass, a cold empty side of the bed, fading memories, loneliness and alcohol, black and white dream"
+cover: "/covers/729.jpg"
 ---
 
 ellerinin titrediği bir gün oturup   

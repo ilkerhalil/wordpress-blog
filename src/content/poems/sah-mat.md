@@ -4,6 +4,7 @@ date: 2007-02-26
 description: "Şah,mat * — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "chess pieces falling from a pocket into darkness, a lone king, a street shared with loneliness, checkmate symbolism"
+cover: "/covers/734.jpg"
 ---
 
 bir sokakla paylaşırken yalnızlığını  

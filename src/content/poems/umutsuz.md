@@ -4,6 +4,7 @@ date: 2007-11-25
 description: "Umutsuz — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a figure at a crossroads of endless empty roads, no sun, no light, total despair and solitude, monochrome"
+cover: "/covers/741.jpg"
 ---
 
 “sevdaya dair umutların yoktu  

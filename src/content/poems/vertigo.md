@@ -4,6 +4,7 @@ date: 2007-11-15
 description: "Vertigo — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a young woman in red under a wide-brimmed hat laughing enigmatically, surreal dreamscape, Kafkaesque metamorphosis shadows, vertigo spiral"
+cover: "/covers/722.jpg"
 ---
 
 bir şapkanın altından   

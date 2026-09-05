@@ -4,6 +4,7 @@ date: 2007-04-14
 description: "Söyleyememek — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a singer falling silent, burning himself in flames, Istanbul in the background, unspeakable words, last embers of hope"
+cover: "/covers/742.jpg"
 ---
 
 bu gece  

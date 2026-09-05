@@ -4,6 +4,7 @@ date: 2005-07-25
 description: "Gece yolculuğu — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a foggy cold night street, blue moon, shadows and stray dogs, a man with imaginary sword and coat merging into night"
+cover: "/covers/737.jpg"
 ---
 
 ölü gibi   

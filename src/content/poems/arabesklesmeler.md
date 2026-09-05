@@ -4,6 +4,7 @@ date: 2005-07-25
 description: "Arabeskleşmeler — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "wilted roses covering empty city streets, grey sea, silent dead birds, a city that committed suicide, arabesque melancholy"
+cover: "/covers/731.jpg"
 ---
 
 ilk önce güller soldu,   

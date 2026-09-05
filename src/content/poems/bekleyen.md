@@ -4,6 +4,7 @@ date: 2005-07-28
 description: "Bekleyen — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a person waiting at a window at night, guns and silent letters on the table, black shadows closing in, anxious anticipation"
+cover: "/covers/727.jpg"
 ---
 
 Rüzgarlar   

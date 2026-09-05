@@ -4,6 +4,7 @@ date: 2005-07-25
 description: "Komutan — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "a defeated commander in tattered uniform watching armored divisions pass, crumbling castle, ruined battlefield, proud but beaten"
+cover: "/covers/735.jpg"
 ---
 
 Izırhlı tümenler geçerken  

@@ -19,6 +19,7 @@ const poems = defineCollection({
     description: z.string().default(''),
     tags: z.array(z.string()).default([]),
     coverPrompt: z.string().default(''),
+    cover: z.string().default(''),
   }),
 });
 

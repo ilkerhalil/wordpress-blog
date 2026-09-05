@@ -94,6 +94,21 @@ ${body}
 // ---------- ŞİİRLER ----------
 const poems = JSON.parse(readFileSync(join(DATA, 'poems_raw.json'), 'utf8'));
 const prompts = JSON.parse(readFileSync(join(DATA, 'poem_prompts.json'), 'utf8')).prompts;
+
+// Şiir post ID'leri (kapak görseli eşleştirme)
+const POST_IDS = {
+  "Mavi Karanlık": 714, "Bir Cinayettir Aşk": 715, "Son Savaş": 716,
+  "Bıraktığım gibi": 717, "Kısırdöngü": 718, "Giderken": 719,
+  "Yağmur ve İstanbul": 720, "Kozmos": 721, "Vertigo": 722,
+  "Meczubun Türküsü": 723, "Seni İçmek": 724, "Unuttuğun": 725,
+  "Sen": 726, "Bekleyen": 727, "Bir Ortadoğu Masalı": 728,
+  "Yitik Hayal": 729, "Hiç gönderilmeyecek bir mektuba giriş": 730,
+  "Arabeskleşmeler": 731, "Eskişehir Hatırası": 732, "Ruhların Dili": 733,
+  "Şah,mat *": 734, "Komutan": 735, "Kelebek": 736,
+  "Gece yolculuğu": 737, "Şeytan Gözyaşları": 738, "Tapınağın Yalnız Kralı": 739,
+  "Meczup": 740, "Umutsuz": 741, "Söyleyememek": 742,
+};
+
 let poemCount = 0;
 for (const [title, text] of Object.entries(poems)) {
   // tarihi çıkar
@@ -112,12 +127,15 @@ for (const [title, text] of Object.entries(poems)) {
   // şiir satır sonlarını markdown'da koru (her satır sonuna 2 boşluk)
   body = body.replace(/\n/g, '  \n');
   const prompt = prompts[title] || '';
+  const postId = POST_IDS[title];
+  const cover = postId ? `/covers/${postId}.jpg` : '';
   const fm = `---
 title: "${title.replace(/"/g, '\\"')}"
 date: ${date}
 description: "${title.replace(/"/g, '\\"')} — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "${(prompt || '').replace(/"/g, '\\"')}"
+cover: "${cover}"
 ---
 
 ${body}

@@ -4,6 +4,7 @@ date: 2007-04-30
 description: "Bir Ortadoğu Masalı — İlker Halil Türer şiiri."
 tags: ["şiir"]
 coverPrompt: "epic Middle Eastern mythological panorama, desert wind, ancient Jerusalem wall, crusader army in snow, legendary figures, mystical and timeless"
+cover: "/covers/728.jpg"
 ---
 
 ''Hayallerine patlarken   

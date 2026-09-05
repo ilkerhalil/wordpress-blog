@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 
 const { poem } = Astro.props;
 const { Content } = await render(poem);
+const base = import.meta.env.BASE_URL;
 
 const fmt = (d: Date) =>
   d.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -22,12 +23,26 @@ const fmt = (d: Date) =>
   description={poem.data.description}
   type="article"
   date={poem.data.date}
+  image={poem.data.cover || undefined}
 >
-  <article class="article">
+  <article class="poem-article">
     <div class="container">
-      <header class="article-header" style="text-align:center">
-        <h1>{poem.data.title}</h1>
-        <div class="meta">{fmt(poem.data.date)}</div>
+      <header class="poem-header">
+        <div class="poem-cover-wrap">
+          {poem.data.cover && (
+            <img
+              src={`${base}${poem.data.cover.replace(/^\//, '')}`}
+              alt={poem.data.title}
+              class="poem-cover"
+              loading="eager"
+            />
+          )}
+        </div>
+        <div class="poem-heading">
+          <p class="poem-kicker">Şiir</p>
+          <h1>{poem.data.title}</h1>
+          <div class="meta">{fmt(poem.data.date)}</div>
+        </div>
       </header>
       <div class="poem-body">
         <Content />
@@ -35,3 +50,52 @@ const fmt = (d: Date) =>
     </div>
   </article>
 </BaseLayout>
+
+<style>
+  .poem-article { padding: 3rem 0 4rem; }
+  .poem-header {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .poem-cover-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    aspect-ratio: 3/4;
+  }
+  .poem-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .poem-kicker {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+  .poem-heading h1 {
+    font-family: var(--display);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+    margin-bottom: 0.5rem;
+  }
+  .poem-heading .meta { color: var(--ink-soft); }
+  .poem-body {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    line-height: 2;
+    max-width: 32rem;
+    margin: 0 auto;
+    text-align: left;
+  }
+  @media (max-width: 640px) {
+    .poem-header { grid-template-columns: 1fr; text-align: center; }
+    .poem-cover-wrap { max-width: 220px; margin: 0 auto; }
+  }
+</style>
